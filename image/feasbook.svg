@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 49.98">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        mix-blend-mode: screen;
+        opacity: .1;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-5 {
+        fill: #eaeaea;
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-7 {
+        mask: url(#mask);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="631.11" cy="939.44" fx="631.11" fy="939.44" r="64.44" gradientTransform="translate(267.14 101.81) rotate(179.89) scale(.39 .06) skewX(-.45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".12" stop-color="#d0d0d0"/>
+      <stop offset=".3" stop-color="#929292"/>
+      <stop offset=".48" stop-color="#5e5e5d"/>
+      <stop offset=".64" stop-color="#363635"/>
+      <stop offset=".78" stop-color="#181818"/>
+      <stop offset=".91" stop-color="#070706"/>
+      <stop offset="1" stop-color="#010100"/>
+    </radialGradient>
+    <mask id="mask" y="42.28" width="50" height="7.7" maskUnits="userSpaceOnUse">
+      <path class="cls-4" d="M0,46.18c.12-2.13,11.4-3.87,25.21-3.9,13.8-.03,24.89,1.68,24.79,3.81-.05,2.13-11.35,3.87-25.18,3.9C10.99,50.01-.13,48.31,0,46.18Z"/>
+    </mask>
+    <radialGradient id="radial-gradient-2" cx="81.56" cy="41.18" fx="81.56" fy="41.18" r="137.38" gradientTransform="translate(18.22) scale(.23 .25)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0085c7"/>
+      <stop offset=".69" stop-color="#005a89"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-3">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <g class="cls-7">
+          <path d="M0,46.18c.12-2.13,11.4-3.87,25.21-3.9,13.8-.03,24.89,1.68,24.79,3.81-.05,2.13-11.35,3.87-25.18,3.9C10.99,50.01-.13,48.31,0,46.18Z"/>
+        </g>
+        <ellipse class="cls-5" cx="25" cy="23.99" rx="22.52" ry="23.99"/>
+        <path class="cls-6" d="M45.78,25.06c0,12.23-9.31,22.14-20.78,22.14S4.22,37.29,4.22,25.06c0-3.24,.65-6.32,1.83-9.09C9.3,8.28,16.56,2.92,25,2.92s15.7,5.36,18.96,13.05c1.18,2.77,1.83,5.85,1.83,9.09Z"/>
+        <path class="cls-2" d="M43.96,14.89c-3.26,7.69-10.52,13.05-18.96,13.05S9.3,22.59,6.04,14.89C9.3,7.2,16.56,1.85,25,1.85s15.7,5.36,18.96,13.05Z"/>
+        <path class="cls-1" d="M26.44,17.4c0-1.69,1.35-1.44,1.35-1.44h4.26v-5.04h-6.38c-4.83,0-4.96,5.65-4.96,5.65v3.87l-2.75,.02v4.61h2.75v14.14h5.73v-14.14h4.86l.74-4.71-5.61,.04v-2.99Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
